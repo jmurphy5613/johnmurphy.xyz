@@ -1,4 +1,6 @@
 import './App.css';
+import ThreeScene from './threejs/three.scene';
+import Typed from 'react-typed';
 
 function App() {
   return (
