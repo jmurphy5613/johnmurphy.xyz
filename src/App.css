@@ -69,3 +69,21 @@ h4 {
   margin: 0;
   font-family: 'IBM Plex Sans', sans-serif;
 }
+
+.projects-button {
+  width: 25%;
+  margin-top: 1rem;
+  border: none;
+  height: 2.5rem;
+  background-color: white;
+  color: black;
+  font-family: 'Inter';
+  border-radius: 5px;
+  font-weight: 700;
+  transition: 0.5s;
+}
+.projects-button:hover {
+  background-color: #e879e9;
+  color: white;
+  cursor: pointer;
+}
