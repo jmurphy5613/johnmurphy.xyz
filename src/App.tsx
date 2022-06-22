@@ -12,8 +12,9 @@ function App() {
       <div className="App">
         <ThreeScene />
         <div className="main-content">
+          <h4 className="back" onClick={e => setInProjects(false)}>{`<- Home`}</h4>
           <h1> 
-            <h3>Web3 Projects</h3>
+            <h3 className="projects-title">Web3 Projects</h3>
             <div className="project-container" style={{ backgroundImage: 'url(/azol.png)' }}>
             </div>
             <div className="project-container" style={{ backgroundImage: 'url(/bb.png)'}}>
