@@ -13,8 +13,11 @@ function App() {
         <ThreeScene />
         <div className="main-content">
           <h1> 
-            <h3>Projects</h3>
-            
+            <h3>Web3 Projects</h3>
+            <div className="project-container" style={{ backgroundImage: 'url(/azol.png)' }}>
+            </div>
+            <div className="project-container" style={{ backgroundImage: 'url(/bb.png)'}}>
+            </div>
           </h1>
         </div>
       </div>

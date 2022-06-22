@@ -87,3 +87,18 @@ h4 {
   color: white;
   cursor: pointer;
 }
+
+.project-container {
+  height: 30vh;
+  width: 60%;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-image: url('/public/azol.png');
+  background-size: cover;
+  transition: 0.5s;
+  margin-top: 2rem;
+}
+.project-container:hover {
+  border: 1px solid #e879e9;
+  cursor: pointer;
+}
