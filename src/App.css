@@ -144,3 +144,12 @@ h4 {
 .github:hover {
   cursor: pointer;
 }
+
+.foward {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+.foward:hover {
+  cursor: pointer;
+}

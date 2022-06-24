@@ -8,6 +8,22 @@ function App() {
 
   const [page, setPage] = useState('home');
 
+  // if(page == 'web2projects') {
+  //   return (
+  //     <div className="App">
+  //       <ThreeScene />
+  //       <img src="/github.png" className="github" />
+  //       <h4 className="back" onClick={e => setPage('web3projects')}>{`<- Web3 Projects`}</h4>
+  //       <div className="main-content">
+  //         <h1>
+  //           <h3 className="projects-title">Web2 Projects</h3>
+  //         </h1>
+  //       </div>
+
+  //     </div>
+  //   )
+  // }
+
   if(page == 'web3projects') {
     return (
       <div className="App">
@@ -15,25 +31,20 @@ function App() {
         <img src="/github.png" className="github" />
         <div className="main-content">
           <h4 className="back" onClick={e => setPage('home')}>{`<- Home`}</h4>
+          {/* <h4 className="foward" onClick={e => setPage('web2projects')}>{`Web2 Projects ->`}</h4> */}
           <h1>
             <h3 className="projects-title">Web3 Projects</h3>
-            <Popup modal trigger={
-              <div className="project-container" style={{ backgroundImage: 'url(/azol.png)' }}>
-                <div className="overlay">
-                  <h3>Azol.io</h3>
-                </div>
+            <div className="project-container" style={{ backgroundImage: 'url(/azol.png)' }}>
+              <div className="overlay">
+                <h3>Azol.io</h3>
               </div>
-            }>
-            </Popup>
+            </div>
 
-            <Popup modal trigger={
-              <div className="project-container" style={{ backgroundImage: 'url(/bb.png)' }}>
-                <div className="overlay">
-                  <h3>Billionaire Battles</h3>
-                </div>
+            <div className="project-container" style={{ backgroundImage: 'url(/bb.png)' }}>
+              <div className="overlay">
+                <h3>Billionaire Battles</h3>
               </div>
-            }>
-            </Popup>
+            </div>
           </h1>
         </div>
       </div>
