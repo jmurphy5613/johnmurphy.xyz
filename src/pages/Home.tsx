@@ -21,7 +21,7 @@ const Home = () => {
                         backSpeed={50}
                         backDelay={10}
                         loop
-                        strings={["full stack developer", "frc competitor"]}
+                        strings={["full stack developer", "frc competitor", "software engineer"]}
                     />
                     <h4>
                         I'm currently a developer at Landau Design+Technology, a
