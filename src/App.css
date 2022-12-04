@@ -50,6 +50,14 @@ h1 {
 
 canvas {
   position: absolute;
+  color: red;
+}
+
+h5 {
+  font-size: 1rem;
+  margin-top: 1rem;
+  color: white;
+  display: none;
 }
 
 h3 {
@@ -157,8 +165,9 @@ h4 {
 
 @media screen and (max-width: 500px) {
   h1 {
-    font-size: 2rem;
+    font-size: 1.7rem;
     max-width: 90%;
+    margin: 0 0 0 0.5rem;
   }
 
   h3 {
@@ -166,6 +175,11 @@ h4 {
   }
 
   h4 {
-    font-size: 1rem;
+    font-size: 0.9rem;
+    max-width: 95%;
+  }
+
+  h5 {
+    display: block;
   }
 }
